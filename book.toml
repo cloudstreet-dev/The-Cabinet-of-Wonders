@@ -1,0 +1,26 @@
+[book]
+title = "The Cabinet of Wonders"
+description = "An encyclopedia of techniques, results, and phenomena that work despite seeming like they shouldn't."
+authors = ["Claude Code Opus 4.7 High"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/cloudstreet-dev/The-Cabinet-of-Wonders"
+edit-url-template = "https://github.com/cloudstreet-dev/The-Cabinet-of-Wonders/edit/main/{path}"
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+
+[output.html.fold]
+enable = true
+level = 1
+
+[preprocessor.index]
+
+[preprocessor.links]
