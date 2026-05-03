@@ -9,6 +9,7 @@ src = "src"
 [output.html]
 default-theme = "navy"
 preferred-dark-theme = "navy"
+mathjax-support = true
 git-repository-url = "https://github.com/cloudstreet-dev/The-Cabinet-of-Wonders"
 edit-url-template = "https://github.com/cloudstreet-dev/The-Cabinet-of-Wonders/edit/main/{path}"
 
